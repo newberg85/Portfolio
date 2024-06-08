@@ -3,6 +3,8 @@ import "./globals.css";
 
 // components
 import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import StairTransition from "@/components/StairTransition";
 
 const ubuntu = Ubuntu({ 
   subsets: ["latin"],
@@ -26,8 +28,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={ubuntu.variable}>
-        <Header />
-        {children}</body>
+          <Header />
+          <StairTransition />
+          <PageTransition>{children}</PageTransition>
+        </body>
     </html>
   );
 }
