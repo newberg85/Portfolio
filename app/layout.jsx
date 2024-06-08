@@ -1,7 +1,21 @@
-import { Inter } from "next/font/google";
+import { Ubuntu, Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// components
+import Header from "@/components/Header";
+
+const ubuntu = Ubuntu({ 
+  subsets: ["latin"],
+  weight: [ "300", "400", "500", "700" ],
+  variable: '--font-ubuntu'
+ });
+
+// const poppins = Poppins({ 
+//   subsets: ["latin"],
+//   weight: ["100", "200", "300", "400", "500", "700" ],
+//   variable: '--font-poppins'
+//  });
+
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +24,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-br">
+      <body className={ubuntu.variable}>
+        <Header />
+        {children}</body>
     </html>
   );
 }
