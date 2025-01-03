@@ -13,11 +13,11 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left">
-            <h1 className="h1">
+            <h1 className="h1 text-4xl lg:text-6xl">
               Olá, eu sou o Berg,
               <br /> um <TypeWriterText />.
             </h1>
-            <p className="max-w-[500px] text-xl mb-9 mt-3 text-black/80 leading-5">
+            <p className="max-w-[500px] text-lg mb-9 mt-3 text-black/80 leading-5 lg:text-xl">
               Através da programação e do design, ajudo empresas e pessoas ao
               redor do mundo a expandir seus negócios para o meio online.
             </p>

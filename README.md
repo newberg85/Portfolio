@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meu Portfólio 👨‍💻
 
-## Getting Started
+Bem-vindo ao meu portfólio! Este repositório apresenta alguns dos projetos e experiências que mostram minha paixão por desenvolvimento web e tecnologia. Aqui, você encontrará projetos pessoais, profissionais e desafios que desenvolvi ao longo da minha jornada.
 
-First, run the development server:
+## Sobre Mim  
+Sou Wandemberg, estudante de Ciência da Computação e desenvolvedor web. Tenho experiência em front-end e interesse em explorar novas tecnologias e resolver problemas desafiadores. Além disso, adoro trabalhar em projetos que combinam criatividade e funcionalidade.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias  
+Aqui estão algumas das tecnologias e ferramentas que utilizo em meus projetos:  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Front-end:** HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS  
+- **Back-end:** Node.js, APIs RESTful  
+- **Design:** Bootstrap, Figma, GSAP, Framer Motion, Photoshop, CorelDraw  
+- **Outras:** Git, gihub
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Projetos em Destaque  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### [QR-Gen](https://github.com/SeuUsuario/QR-Gen)  
+Um site para criar e ler QR codes. Integração com a API GoQR.me para geração e suporte à leitura de QR codes com a câmera do celular.  
 
-## Learn More
+### [Green Horizons](https://github.com/SeuUsuario/Green-Horizons)  
+Um site desenvolvido para uma agência de viagens, com animações suaves e design moderno. Ferramentas utilizadas: Next.js, Swiper, GSAP, Locomotive Scroll e Framer Motion.  
 
-To learn more about Next.js, take a look at the following resources:
+### [Mais Sorrisos](https://github.com/SeuUsuario/Mais-Sorrisos)  
+Landing page criada para uma clínica odontológica usando HTML, CSS, Bootstrap e JavaScript. Inclui funcionalidades como scroll suave com jQuery.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### [Rastreamento de IP](https://github.com/SeuUsuario/IP-Tracker)  
+Desafio do Frontend Mentor. Ferramentas: TypeScript, React, e API de geolocalização para rastrear e exibir informações de IP em um mapa interativo.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Contato  
+💌 **Email:** wandemberg.viana85@gmail.com  
+💼 **LinkedIn:** [Wandemberg no LinkedIn](https://www.linkedin.com/in/wandemberg-de-meneses-viana-526019261/)  
+🌐 **Portfólio Online:** [devberg.com.br](https://devberg.com.br/)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Obrigado por visitar meu portfólio! 😊
