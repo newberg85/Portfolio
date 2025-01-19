@@ -24,7 +24,7 @@ const InteractiveCursor = ({ isHovered }) => {
 
   return (
     <motion.div
-      className="cursor bg-black h-8 w-8 rounded-full fixed top-0 left-0 sm:display-none"
+      className="cursor bg-black h-8 w-8 rounded-full fixed top-0 left-0 hidden md:block"
       style={{
         translateX: springX,
         translateY: springY,
